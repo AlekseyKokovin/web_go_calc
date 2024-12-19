@@ -29,5 +29,5 @@ $response = Invoke-WebRequest -Uri $uri -Method Post -Body $expression -Headers 
 Чтобы начать просто введите go run main.go (придется открыть второй терминал для тестов)
 Полностью команды для теста:
 1. git clone https://github.com/AlekseyKokovin/web_go_calc
-2. cd web_calc
+2. cd web_go_calc
 3. go test -v
